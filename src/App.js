@@ -10,23 +10,23 @@ function App() {
   const [recipes, setRecipes] = useState([]);
   const [alert, setAlert] = useState("");
 
-  const APP_ID = "4e9f05eb";
-  const APP_KEY = "9b904d703fa0d46a88ce1ac63f29f498";
+  const APP_ID = "c16bc912";
+  const APP_KEY = "3873ae7fa44edaae6a1de2ec453c8799";
 
-  const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
+  const api = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
   const getData = async () => {
     if (query !== "") {
-      const result = await Axios.get(url);
-      if (!result.data.more) {
+      const response = await Axios.get(api);
+      if (!response.data.more) {
         return setAlert("No food with such name");
       }
-      console.log(result);
-      setRecipes(result.data.hits);
+      console.log(response);
+      setRecipes(response.data.hits);
       setQuery("");
       setAlert("");
     } else {
-      setAlert("Please fill the form");
+      setAlert("Please add the recipe in search box");
     }
   };
 
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Food Searching App</h1>
+      <h1>AROMA</h1>
       <form onSubmit={onSubmit} className="search-form">
         {alert !== "" && <Alert alert={alert} />}
         <input
@@ -48,7 +48,7 @@ function App() {
           onChange={onChange}
           value={query}
           autoComplete="off"
-          placeholder="Search Food"
+          placeholder="Search The Recipe Here..."
         />
         <input type="submit" value="Search" />
       </form>

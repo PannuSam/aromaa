@@ -1,7 +1,7 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
-const RecipeDetails = ({ ingredients }) => {
+const Details = ({ ingredients }) => {
   return ingredients.map(ingredient => {
     return (
       <ul key={uuidv4()} className="ingredient-list">
@@ -12,4 +12,4 @@ const RecipeDetails = ({ ingredients }) => {
   });
 };
 
-export default RecipeDetails;
+export default Details;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RecipeDetails from "./RecipeDetails";
+import Details from "./Details";
 
 const Recipe = ({ recipe }) => {
   const [show, setShow] = useState(false);
@@ -8,12 +8,11 @@ const Recipe = ({ recipe }) => {
   return (
     <div className="recipe">
       <h2>{label}</h2>
-      <img src={image} alt={label} />
       <a href={url} target="_blank" rel="noopener noreferrer">
-        URL
+      <img src={image} alt={label} />
       </a>
       <button onClick={() => setShow(!show)}>Ingredients</button>
-      {show && <RecipeDetails ingredients={ingredients} />}
+      {show && <Details ingredients={ingredients} />}
     </div>
   );
 };

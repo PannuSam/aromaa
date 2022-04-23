@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
 
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -23,7 +23,7 @@ h1 {
   font-size: 8rem;
   letter-spacing: 0.1rem;
   font-style: italic;
-  color: #40b48e;
+  color: #355070;
   text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
   text-transform: uppercase;
   margin: 4rem 0;
@@ -31,12 +31,12 @@ h1 {
 
 .search-form {
   width: 60rem;
-  height: 10rem;
+  height: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d3d3d3;
-  border-radius: 0.5rem;
+  background-color: #e56b6f;
+  border-radius: 1.2rem;
   margin-bottom: 5rem;
   box-shadow: 1rem 2rem 5rem #aaa;
   position: relative;
@@ -46,15 +46,13 @@ h1 {
   position: absolute;
   top: -3rem;
   left: 0;
-  background-color: rgb(233, 72, 72);
   width: calc(100% - 0.4rem);
-  border-radius: 0.5rem;
-  padding: 0.2rem;
+  padding: 0.3rem;
 }
 
 .alert h3 {
   font-size: 1.8rem;
-  color: #fff;
+  color: red;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
@@ -66,19 +64,19 @@ h1 {
   border-bottom: 0.1rem solid #ccc;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
-  height: 3rem;
+  height: 4.5rem;
 }
 
 .search-form input[type="text"] {
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   width: 60%;
-  color: #555;
+  color: rgb(105, 105, 105);
 }
 
 .search-form input[type="submit"] {
   width: 25%;
   text-transform: uppercase;
-  background-color: #40b48e;
+  background-color: #355070;
   color: #fff;
 }
 
@@ -96,15 +94,15 @@ h1 {
   margin: 3rem;
   display: flex;
   flex-direction: column;
-  background-color: #d3d3d3;
+  background-color: #6d597a;
   padding: 2rem;
   position: relative;
   border-radius: 0.5rem;
-  box-shadow: 2rem 3rem 5rem #aaa;
+  box-shadow: 2rem 3rem 5rem rgb(161, 160, 160);
 }
 
 .recipe h2 {
-  background-color: rgba(161, 161, 161, 0.7);
+  background-color:#eaac8b98;
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   position: absolute;
@@ -124,14 +122,14 @@ h1 {
 
 .recipe a {
   font-size: 1.8rem;
-  color: #40b48e;
+  color:#355070;
 }
 
 .recipe button {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
-  background-color: #40b48e;
+  background-color: #355070;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
