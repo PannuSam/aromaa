@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aromaa/precache-manifest.fc60d7cb460614bc7d53050c8312356b.js"
+  "/aromaa/precache-manifest.22bc44c094816c682699973be9a818be.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9331d4f342c34300227c2e2df1473f78",
+    "revision": "24c8e804a67092d59a16087870479da4",
     "url": "/aromaa/index.html"
   },
   {
-    "revision": "07ba68bf00795fb4adee",
-    "url": "/aromaa/static/css/main.ff3a3a3d.chunk.css"
+    "revision": "38bbff7b812d7b0c59a0",
+    "url": "/aromaa/static/css/main.892129db.chunk.css"
   },
   {
     "revision": "9a32938beeea90f3be11",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aromaa/static/js/2.7aefca5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07ba68bf00795fb4adee",
-    "url": "/aromaa/static/js/main.832da6c7.chunk.js"
+    "revision": "38bbff7b812d7b0c59a0",
+    "url": "/aromaa/static/js/main.30a92bf8.chunk.js"
   },
   {
     "revision": "fb28815dc500965cd20c",
