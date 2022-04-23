@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/aromaa/static/css/main.ff3a3a3d.chunk.css",
+    "main.js": "/aromaa/static/js/main.832da6c7.chunk.js",
+    "main.js.map": "/aromaa/static/js/main.832da6c7.chunk.js.map",
+    "runtime-main.js": "/aromaa/static/js/runtime-main.3e3cf6fe.js",
+    "runtime-main.js.map": "/aromaa/static/js/runtime-main.3e3cf6fe.js.map",
+    "static/js/2.7aefca5b.chunk.js": "/aromaa/static/js/2.7aefca5b.chunk.js",
+    "static/js/2.7aefca5b.chunk.js.map": "/aromaa/static/js/2.7aefca5b.chunk.js.map",
+    "index.html": "/aromaa/index.html",
+    "precache-manifest.fc60d7cb460614bc7d53050c8312356b.js": "/aromaa/precache-manifest.fc60d7cb460614bc7d53050c8312356b.js",
+    "service-worker.js": "/aromaa/service-worker.js",
+    "static/css/main.ff3a3a3d.chunk.css.map": "/aromaa/static/css/main.ff3a3a3d.chunk.css.map",
+    "static/js/2.7aefca5b.chunk.js.LICENSE.txt": "/aromaa/static/js/2.7aefca5b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e3cf6fe.js",
+    "static/js/2.7aefca5b.chunk.js",
+    "static/css/main.ff3a3a3d.chunk.css",
+    "static/js/main.832da6c7.chunk.js"
+  ]
+}
